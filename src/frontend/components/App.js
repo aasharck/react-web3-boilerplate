@@ -13,19 +13,19 @@ const App = () => {
     </a>
   </div>
 </nav>
-<div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src={logo} alt="Brand-hero" width="72" height="77" />
-    <h1 class="display-5 fw-bold">React Web3 BoilerPlate</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Quickly design and develop smart contracts and frontend with this BoilerPlate</p>
-      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Connect Wallet</button>
+<div className="px-4 py-5 my-5 text-center">
+    <img className="d-block mx-auto mb-4" src={logo} alt="Brand-hero" width="72" height="77" />
+    <h1 className="display-5 fw-bold">React Web3 BoilerPlate</h1>
+    <div className="col-lg-6 mx-auto">
+      <p className="lead mb-4">Quickly design and develop smart contracts and frontend with this BoilerPlate</p>
+      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" className="btn btn-primary btn-lg px-4 gap-3">Connect Wallet</button>
       </div>
     </div>
   </div>
-  <div class="container">
-  <footer class="py-3 my-4">
-    <p class="text-center text-muted">Forked from Dapp University!</p>
+  <div className="container">
+  <footer className="py-3 my-4">
+    <p className="text-center text-muted">Forked from Dapp University!</p>
   </footer>
 </div>
     </div>
